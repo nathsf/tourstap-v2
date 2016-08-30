@@ -1,0 +1,119 @@
+body {
+  font-family: "san francisco" !important;
+  font-weight: 500 !important;
+}
+body p {
+  font-size: 15px;
+}
+/*login*/
+.bg-login {
+  padding-left: 0px;
+  background-image: url("../img/bg-login.jpg");
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-login div {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../icon/hex-texto.png");
+}
+.bg-login div:nth-child(1) {
+  margin-top: 5%;
+  width: 350px;
+  height: 350px;
+}
+.bg-login div:nth-child(1) p {
+  top: 32%;
+  padding: 0% 25% 0% 13%;
+  position: relative;
+}
+.bg-login div:nth-child(2) {
+  position: absolute;
+  top: 7%;
+  left: 32%;
+  width: 60px;
+  height: 60px;
+}
+.bg-login div:nth-child(2) img {
+  position: relative;
+  left: 32%;
+  top: 24%;
+}
+.bg-login div:nth-child(3) {
+  position: absolute;
+  top: 14%;
+  left: 35.6%;
+  width: 60px;
+  height: 60px;
+}
+.bg-login div:nth-child(3) img {
+  position: relative;
+  left: 27%;
+  top: 24%;
+}
+.bg-login div:nth-child(4) {
+  position: absolute;
+  top: 7%;
+  left: 39%;
+  width: 60px;
+  height: 60px;
+}
+.bg-login div:nth-child(4) img {
+  position: relative;
+  left: 20%;
+  top: 32%;
+}
+.logo-login {
+  background-image: url("../icon/logo.png");
+  width: 35%;
+  height: 195px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 28% 0% 0% 32%;
+}
+.col-xs-4.text-center h1 {
+  font-size: 21px;
+  margin: 16% 0% 0% 0%;
+  font-weight: 600;
+  color: #000;
+}
+.col-xs-4.text-center form {
+  padding: 0% 14% 0% 14%;
+}
+.col-xs-4.text-center a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.col-xs-4.text-center a p.mt {
+  margin-top: 12%;
+}
+.col-xs-4.text-center input[type="submit"] {
+  padding: 1% 12%;
+  margin-bottom: 5%;
+}
+.col-xs-4.text-center input[type="submit"]:active {
+  background-color: #8a562a;
+}
+.col-xs-4.text-center input[type="submit"]:hover {
+  background-color: #8a562a;
+  background: -moz-linear-gradient(top, #d6a610 0%, #9b7808 78%);
+  background: linear-gradient(to bottom, #d6a610 0%, #9b7808 78%);
+  background: -webkit-linear-gradient(top, #d6a610 0%, #9b7808 78%) /* Chrome10-25,Safari5.1-6 */;
+}
+input {
+  border-radius: 4px;
+  border: 0px;
+  padding: 2% 3%;
+  background-color: #e2e1e1;
+  font-size: 16px;
+  margin-top: 14%;
+}
+/*contraseña olvidada*/
+.mt-20 {
+  margin-top: 20%;
+}
+.mt-40 {
+  margin-top: 40%;
+}

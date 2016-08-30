@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    title= pageTitle
+    link(href='assets/css/bootstrap.min.css', rel='stylesheet')
+    link(href='assets/css/sanfrancisco-font.css', rel='stylesheet')
+    link(href='assets/css/main.css', rel='stylesheet')
+  body
+    section()
+      div(class='col-xs-8 bg-login')
+        div(class='')
+          p texto lorem ipsum texto lorem ipsum texto lorem ipsum texto lorem ipsum texto lorem ipsum texto lorem ipsum
+        div(class='')
+          a(href='#')
+            img(src='assets/icon/icon-facebook.png')
+        div(class='')
+          a(href='#')
+            img(src='assets/icon/icon-pinterest.png')
+        div(class='')
+          a(href='#')
+            img(src='assets/icon/icon-twitter.png')
+      div(class='col-xs-4 text-center')
+        div(class='logo-login')
+        form(class='')
+          p(class='mt-20') Escribe tu correo electrónico y te enviaremos un código para que puedas ingresar.
+          input(type='email' placeholder='Correo electrónico' class='col-xs-12' required)
+          input(type='submit' value='Enviar' class='btn-warning mt-40')
