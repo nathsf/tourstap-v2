@@ -135,3 +135,52 @@ input {
 .mt-40 {
   margin-top: 40%;
 }
+/*registro*/
+.bg-registro {
+  background-image: url("../img/bg-registro.jpg");
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-registro .logo {
+  background-image: url("../icon/logo-blanco.png");
+  width: 55%;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 45%;
+  margin-bottom: 10%;
+}
+.bg-registro .text-center {
+  background-color: rgba(205,163,29,0.82);
+}
+.bg-registro form div:nth-child(5) {
+  padding-left: 8px;
+  padding-right: 21px;
+}
+.bg-registro form h1 {
+  font-size: 21px;
+  color: #fff;
+  margin-top: 5%;
+}
+.bg-registro form span {
+  font-size: 25px;
+  padding-left: 1px;
+  color: #000;
+}
+.bg-registro form input {
+  width: 95%;
+  background-color: #fff;
+  margin-top: 11%;
+}
+.bg-registro form .space {
+  position: relative;
+  left: 7%;
+}
+.bg-registro form input[type="submit"] {
+  width: auto;
+  padding: 0.5% 10%;
+  margin: 9% 0%;
+  background-color: #494a4b;
+  color: #fff;
+}

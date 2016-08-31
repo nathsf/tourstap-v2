@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    title= Tourstap
+    link(rel='shortcut icon', href='assets/icon/faviicon.png', type='image/x-icon')
+    link(href='assets/css/bootstrap.min.css', rel='stylesheet')
+    link(href='assets/css/sanfrancisco-font.css', rel='stylesheet')
+    link(href='assets/css/main.css', rel='stylesheet')
+
+  body
+    section(class='bg-registro')
+        div(class='container')
+            div(class='row')
+                div(class='col-sm-3 col-sm-offset-5')
+                    div(class='logo')
+
+                div(class='col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center')
+                    form(class="")
+                        h1(class='') Llena tus datos
+                        div(class='col-sm-6')
+                            input(type='text' name='name' placeholder='Nombre' class='space'  required)
+                            span(class='space') *
+                        div(class='col-sm-6')
+                            input(type='text' name='lastname' placeholder='Apellidos' required)
+                            span *
+                        div(class='col-sm-6')
+                            input(type='email' name='email' placeholder='E-mail' class='space'  required)
+                            span(class='space') *
+                        div(class='col-sm-6')
+                            input(type='phone' name='phone' placeholder='Telefono'  required)
+
+                        div(class='col-sm-6')
+                            input(type='email' placeholder='Contraseña' class='space'  required)
+                            span(class='space') *
+                        div(class='col-sm-6')
+                            input(type='password' placeholder='Confirmar contraseña' class='' required)
+                            span *
+
+                        div(class='col-sm-12')
+                            input(type='submit' value='Registrar' class='btn-gray-darker mt-40')
