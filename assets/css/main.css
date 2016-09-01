@@ -184,3 +184,12 @@ input {
   background-color: #494a4b;
   color: #fff;
 }
+.bg-registro form input[type="submit"]:active {
+  background-color: #000;
+}
+.bg-registro form input[type="submit"]:hover {
+  background-color: #494a4b;
+  background: -moz-linear-gradient(top, #979797 0%, #0d0d0d 78%);
+  background: linear-gradient(to bottom, #979797 0%, #0d0d0d 78%);
+  background: -webkit-linear-gradient(top, #979797 0%, #0d0d0d 78%);
+}
