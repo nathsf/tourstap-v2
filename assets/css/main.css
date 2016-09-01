@@ -193,3 +193,87 @@ input {
   background: linear-gradient(to bottom, #979797 0%, #0d0d0d 78%);
   background: -webkit-linear-gradient(top, #979797 0%, #0d0d0d 78%);
 }
+/*menu*/
+nav {
+  width: 60px;
+  height: 667px;
+  background-color: #808080;
+  position: fixed;
+  border: 1px solid #fff;
+}
+nav ul.navbar {
+  padding-left: 0px;
+  position: relative;
+  left: -2px;
+  top: -2px;
+}
+nav ul.navbar li {
+  background-color: #808080;
+  width: 60px;
+  height: 60px;
+  list-style: none;
+  border: 1px solid #fff;
+}
+nav ul.navbar li p {
+  display: none;
+}
+nav ul.navbar li:active {
+  width: 256px;
+  -webkit-transition: width 0.2s ease-in;
+  -moz-transition: width 0.2s ease-in;
+  -ms-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+}
+nav ul.navbar li:active img {
+  display: none;
+}
+nav ul.navbar li:active p {
+  display: inherit;
+  color: #d6a610;
+  float: right;
+  padding-top: 6%;
+  padding-right: 5%;
+  font-size: 17px;
+}
+nav ul.navbar li:hover {
+  width: 256px;
+  -webkit-transition: width 0.2s ease-in;
+  -moz-transition: width 0.2s ease-in;
+  -ms-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+}
+nav ul.navbar li:hover img {
+  display: none;
+}
+nav ul.navbar li:hover p {
+  display: inherit;
+  color: #fff;
+  float: right;
+  padding-top: 6%;
+  padding-right: 5%;
+  font-size: 17px;
+}
+nav ul.navbar li:nth-child(5) {
+  padding: 7% 16%;
+}
+nav ul.navbar li:nth-child(1) {
+  padding: 7% 16%;
+}
+nav ul.navbar li:nth-child(6) {
+  margin-top: 330%;
+}
+nav ul.navbar li:nth-child(6):hover {
+  width: 60px;
+}
+nav ul.navbar li:nth-child(6):hover img {
+  display: inherit;
+}
+nav ul.navbar li:nth-child(7):hover {
+  width: 60px;
+}
+nav ul.navbar li:nth-child(7):hover img {
+  display: inherit;
+}
+nav ul.navbar li img {
+  padding: 18% 21%;
+}
