@@ -1,10 +1,48 @@
 include head
-	body
+	body(onLoad='foto(1)')
 		section
 			include navegador
 			include perfil-contain
-			div(class='col-sm-7')
-				h4 modificar datos personales
+			div(class='col-sm-7 editar')
+				div(class='col-sm-12')
+					h4 Modificar datos personales
+				div(class='col-sm-6')
+					p Nombre
+					input(type='text' name='name'   required)
+				div(class='col-sm-6')
+					p Apellido 
+					input(type='text' name='name'   required)
+				div(class='col-sm-6')
+					p Correo 
+					input(type='email' name='email'    required)
+				div(class='col-sm-6')
+					p Teléfono
+					input(type='text' name='name'  required)
+				div(class='col-sm-6')
+					p Cumpleaños 
+					input(type='text' name='name'   required)
+				div(class='col-sm-12')
+					img(src='assets/icon/foto-perfil.png' class='foto')
+					div(class='avatar')
+						input(class="input-imagen" id="file1")
+						button(class='btn btn-primary') 
+							input(type="file" class="input-hidden" id="fileToUpload1" name="fileToUpload1")
+							div Subir una foto
+					div(class='separator')
+				div(class='col-sm-12')
+					h4 Cambiar contraseña
+				div(class='col-md-9 col-lg-7')
+					p Contraseña actual
+					input(type='password' name='name'  class='space'  required)
+				div(class='col-md-9 col-lg-7')
+					p Contraseña nueva
+					input(type='password' name='name'  class='space'  required)
+				div(class='col-md-9 col-lg-7')
+					p Confirmar Contraseña
+					input(type='password' name='password'    required)
+				div(class='col-sm-10')
+					button(class='btn btn-warning') Guardar
+
 		script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js')
 		script(src='assets/js/owl.carousel.min.js')
 		script(src='assets/js/main.js')

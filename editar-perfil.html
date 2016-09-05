@@ -8,7 +8,7 @@
     <link href="assets/css/sanfrancisco-font.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <body>
+    <body onLoad="foto(1)">
       <section>
         <div class="nav sidebar-nav">
           <nav>
@@ -53,8 +53,58 @@
             <div></div>
             <p>Salir</p></a>
         </div>
-        <div class="col-sm-7">
-          <h4>modificar datos personales</h4>
+        <div class="col-sm-7 editar">
+          <div class="col-sm-12">
+            <h4>Modificar datos personales</h4>
+          </div>
+          <div class="col-sm-6">
+            <p>Nombre</p>
+            <input type="text" name="name" required>
+          </div>
+          <div class="col-sm-6">
+            <p>Apellido </p>
+            <input type="text" name="name" required>
+          </div>
+          <div class="col-sm-6">
+            <p>Correo </p>
+            <input type="email" name="email" required>
+          </div>
+          <div class="col-sm-6">
+            <p>Teléfono</p>
+            <input type="text" name="name" required>
+          </div>
+          <div class="col-sm-6">
+            <p>Cumpleaños </p>
+            <input type="text" name="name" required>
+          </div>
+          <div class="col-sm-12"><img src="assets/icon/foto-perfil.png" class="foto">
+            <div class="avatar">
+              <input id="file1" class="input-imagen">
+              <button class="btn btn-primary"> 
+                <input type="file" id="fileToUpload1" name="fileToUpload1" class="input-hidden">
+                <div>Subir una foto</div>
+              </button>
+            </div>
+            <div class="separator"></div>
+          </div>
+          <div class="col-sm-12">
+            <h4>Cambiar contraseña</h4>
+          </div>
+          <div class="col-md-9 col-lg-7">
+            <p>Contraseña actual</p>
+            <input type="password" name="name" required class="space">
+          </div>
+          <div class="col-md-9 col-lg-7">
+            <p>Contraseña nueva</p>
+            <input type="password" name="name" required class="space">
+          </div>
+          <div class="col-md-9 col-lg-7">
+            <p>Confirmar Contraseña</p>
+            <input type="password" name="password" required>
+          </div>
+          <div class="col-sm-10">
+            <button class="btn btn-warning">Guardar</button>
+          </div>
         </div>
       </section>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
