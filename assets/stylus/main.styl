@@ -2,7 +2,7 @@ body
     font-family "san francisco"!important
     font-weight 500!important 
     p 
-        font-size 16px
+        font-size 15px
         
 /*login*/
 .bg-login
@@ -208,7 +208,7 @@ input
                 p
                     display none
                 &:active
-                            width 310px
+                            width 285px
                             -webkit-transition width .2s ease-in
                             -moz-transition width .2s ease-in
                             -ms-transition width .2s ease-in
@@ -223,7 +223,7 @@ input
                                 padding-right 5%
                                 font-size 17px
                 &:hover
-                            width 310px
+                            width 285px
                             -webkit-transition width .2s ease-in
                             -moz-transition width .2s ease-in
                             -ms-transition width .2s ease-in
@@ -331,6 +331,7 @@ input
     padding-left 5%
     h4
         margin-bottom 5%
+        font-weight 600
     p
         display inline
         
@@ -402,3 +403,50 @@ input
             float right
             margin-top 5%
 
+/*rutas*/
+
+.rutas
+    padding-left 17%
+    p
+        &:first-child
+            width 20%
+            line-height 1
+            padding-left 1%
+            margin-top 6%
+            
+/*contador superior de puntos*/
+.pts-tapcoin
+    float right
+    div
+        &:nth-child(1)
+            background-image url('../icon/tapcoin-contenedor.png')
+            width 50%
+            height 124px
+            background-repeat no-repeat
+            background-size contain
+            padding-top 4%
+            .tapcoin
+                background-image url('../icon/tapcoin.png')
+                width 20%
+                height 30px
+                margin-left 12%
+                margin-top -3px
+                float left
+            p 
+                color white
+        &:nth-child(2)
+            background-image url('../icon/logo-contenedor.png')
+            width 40%
+            height 155px
+            background-repeat no-repeat
+            background-size contain
+            position absolute
+            top 0
+            right 0
+            .logo
+                background-image url('../icon/logo-blanco.png')
+                width 40%
+                height 105px
+                margin-left 13%
+                margin-top 5%
+            
