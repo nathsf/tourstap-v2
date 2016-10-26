@@ -5,6 +5,13 @@ body {
 body p {
   font-size: 16px;
 }
+/*helpers*/
+.pr-5 {
+  padding-right: 5%;
+}
+.pl-10 {
+  padding-left: 10%;
+}
 /*login*/
 .bg-login {
   padding-left: 0px;
@@ -199,8 +206,8 @@ input {
 }
 .nav nav {
   width: 60px;
-  height: 890px;
-  background-color: #808080;
+  height: 930px;
+  background-color: #4a4b4c;
   border: 1px solid #fff;
   z-index: 1100;
 }
@@ -221,7 +228,7 @@ input {
   margin-top: 655%;
 }
 .nav nav ul.navbar li {
-  background-color: #808080;
+  background-color: #4a4b4c;
   width: 60px;
   height: 60px;
   list-style: none;
@@ -275,7 +282,7 @@ input {
 /*perfil*/
 .bg-perfil {
   color: #fff;
-  height: 890px;
+  height: 930px;
   position: relative;
   background-color: #d8a710;
   left: 0%;
@@ -327,8 +334,8 @@ input {
   background-color: #fff;
 }
 .bg-perfil .slide-descuentos .item div {
-  width: 150px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   background-color: rgba(0,0,0,0.5);
   opacity: 0;
@@ -336,6 +343,18 @@ input {
 .bg-perfil .slide-descuentos .item img {
   border: 4px solid #fff;
   margin-bottom: 0px;
+}
+.bg-perfil .slide-descuentos .item:hover div {
+  opacity: 1;
+}
+.bg-perfil .slide-descuentos .item:hover span {
+  z-index: 100;
+  color: #fff;
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  font-size: 1.4em;
 }
 .bg-perfil .salir div {
   background-image: url("../icon/icono-salir.png");
@@ -413,14 +432,15 @@ input {
 }
 .col-sm-7.editar .avatar button {
   width: 20%;
-  background-color: #494a4b;
-  border: 1px solid #494a4b;
-  padding: 1px;
+  background-image: url("../icon/button-perfil.png");
+  padding: 2px;
   margin-left: -7px;
   font-size: 18px;
   color: #fff;
   position: absolute;
   top: 32%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 1024px) {
   .col-sm-7.editar .avatar button {
@@ -428,11 +448,10 @@ input {
   }
 }
 .col-sm-7.editar .avatar button:hover {
-  background-color: #000;
-  border: 1px solid #000;
+  background-image: url("../icon/button-perfil-hover.png");
 }
 .col-sm-7.editar .avatar button:focus {
-  background-color: #494a4b;
+  background-image: url("../icon/button-perfil-hover.png");
   border: 1px solid #494a4b;
 }
 .col-sm-7.editar .separator {
