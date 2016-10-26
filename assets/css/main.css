@@ -12,6 +12,9 @@ body p {
 .pl-10 {
   padding-left: 10%;
 }
+.text-justify {
+  text-align: justify;
+}
 /*login*/
 .bg-login {
   padding-left: 0px;
@@ -293,7 +296,7 @@ input {
 .bg-perfil .icon {
   width: 37px;
   height: 37px;
-  background-color: #808080;
+  background-color: #4a4b4c;
   position: absolute;
   right: 0;
 }
@@ -467,4 +470,62 @@ input {
   border-radius: 1px;
   float: right;
   margin-top: 5%;
+}
+/*Descuentos*/
+.contain-descuento {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (min-width: 1210px) {
+  .contain-descuento {
+    width: 95% !important;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .contain-descuento {
+    width: 93% !important;
+  }
+}
+.contain-descuento .item {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.contain-descuento .item .descuento-hover {
+  background-color: rgba(27,27,27,0.57);
+  width: 100%;
+  height: 930px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+}
+.contain-descuento .item .descuento-hover div {
+  z-index: 1500;
+  color: #fff;
+  text-align: center;
+  padding: 55% 10% 5% 10%;
+}
+.contain-descuento .item .descuento-hover p.text-justify {
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.contain-descuento .item .descuento-hover button {
+  padding: 0% 7% 1% 7%;
+  font-size: 17px;
+  margin-top: 5%;
+}
+.contain-descuento .item .descuento-item {
+  width: 100%;
+  height: 930px;
+}
+.contain-descuento .item:hover .descuento-hover {
+  opacity: 1;
+}
+.contain-descuento .item:hover span {
+  z-index: 100;
+  color: #fff;
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  font-size: 1.4em;
 }

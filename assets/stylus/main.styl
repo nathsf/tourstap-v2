@@ -8,7 +8,9 @@ body
 .pr-5
     padding-right 5%
 .pl-10
-    padding-left 10%     
+    padding-left 10%
+.text-justify
+   text-align justify     
 /*login*/
 .bg-login
     padding-left: 0px;
@@ -262,7 +264,7 @@ input
     .icon
         width 37px
         height 37px
-        background-color #808080
+        background-color rgb(74, 75, 76)
         position absolute
         right 0
         &:hover
@@ -417,3 +419,53 @@ input
             float right
             margin-top 5%
 
+
+
+/*Descuentos*/
+.contain-descuento
+   padding-left 0px
+   padding-right 0px
+   
+   @media screen and (min-width:1210px)
+      width 95%!important
+   @media screen and (max-width:1210px)
+      width 93%!important
+   .item
+      padding-left 0px
+      padding-right 0px
+      .descuento-hover
+         background-color rgba(27, 27, 27, 0.57)
+         width 100%
+         height 930px
+         position absolute
+         z-index 10
+         opacity 0
+         div
+            z-index 1500
+            color white
+            text-align center
+            padding 55% 10% 5% 10%
+         p.text-justify
+            margin-bottom 10%
+            margin-top 10%
+         button
+            padding 0% 7% 1% 7%
+            font-size 17px
+            margin-top 5%
+      .descuento-item
+         width 100%
+         height 930px
+      &:hover
+            .descuento-hover
+               opacity 1
+            span 
+               z-index 100
+               color white
+               text-align left
+               position absolute
+               top 40%
+               left 23%
+               font-size 1.4em
+
+    
+    
