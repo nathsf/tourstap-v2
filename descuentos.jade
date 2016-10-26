@@ -2,6 +2,25 @@ include head
     body(onLoad='')
       section
          include navegador
+      div(class='filter')
+         form(action='')
+            input(list='place' name='places' placeholder="Elige Ciudad")
+            datalist(id='place')
+               option(value='Lugar 1')
+               option(value='Lugar 2')
+               option(value='Lugar 3')
+               option(value='Lugar 4')
+
+            input(list='category' name='category' placeholder="Elige Categoría")
+            datalist(id='category')
+               option(value='Restaruantes')
+               option(value='Hoteles')
+               option(value='Ecolodge')
+               option(value='Tours')
+               option(value='Souvenirs')
+
+            button(class='btn btn-warning') Buscar
+
       section(class='col-xs-11 contain-descuento')
          div(class='item')
             div(class='descuento-hover')
