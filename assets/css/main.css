@@ -209,7 +209,7 @@ input {
 }
 .nav nav {
   width: 60px;
-  height: 930px;
+  height: 900px;
   background-color: #4a4b4c;
   border: 1px solid #fff;
   z-index: 1100;
@@ -241,7 +241,7 @@ input {
   display: none;
 }
 .nav nav ul.navbar li:active {
-  width: 310px;
+  width: 285px;
   -webkit-transition: width 0.2s ease-in;
   -moz-transition: width 0.2s ease-in;
   -ms-transition: width 0.2s ease-in;
@@ -259,7 +259,7 @@ input {
   font-size: 17px;
 }
 .nav nav ul.navbar li:hover {
-  width: 310px;
+  width: 285px;
   -webkit-transition: width 0.2s ease-in;
   -moz-transition: width 0.2s ease-in;
   -ms-transition: width 0.2s ease-in;
@@ -285,7 +285,7 @@ input {
 /*perfil*/
 .bg-perfil {
   color: #fff;
-  height: 930px;
+  height: 900px;
   position: relative;
   background-color: #d8a710;
   left: 0%;
@@ -391,6 +391,7 @@ input {
 }
 .col-sm-7.editar h4 {
   margin-bottom: 5%;
+  font-weight: 600;
 }
 .col-sm-7.editar p {
   display: inline;
@@ -471,6 +472,64 @@ input {
   float: right;
   margin-top: 5%;
 }
+/*rutas*/
+.rutas {
+  padding-left: 17%;
+}
+.rutas p:first-child {
+  width: 20%;
+  line-height: 1;
+  padding-left: 1%;
+  margin-top: 6%;
+}
+.rutas .hex {
+  background-image: url("../icon/hex-ruta-desactivada.png");
+  width: 18%;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+/*contador superior de puntos*/
+.pts-tapcoin {
+  float: right;
+}
+.pts-tapcoin div:nth-child(1) {
+  background-image: url("../icon/tapcoin-contenedor.png");
+  width: 50%;
+  height: 124px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 4%;
+}
+.pts-tapcoin div:nth-child(1) .tapcoin {
+  background-image: url("../icon/tapcoin.png");
+  width: 20%;
+  height: 30px;
+  margin-left: 12%;
+  margin-top: -3px;
+  float: left;
+}
+.pts-tapcoin div:nth-child(1) p {
+  color: #fff;
+}
+.pts-tapcoin div:nth-child(2) {
+  background-image: url("../icon/logo-contenedor.png");
+  width: 40%;
+  height: 155px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.pts-tapcoin div:nth-child(2) .logo {
+  background-image: url("../icon/logo-blanco.png");
+  width: 40%;
+  height: 105px;
+  margin-left: 13%;
+  margin-top: 5%;
+}
 /*Descuentos*/
 .filter {
   position: absolute;
@@ -519,7 +578,7 @@ input {
 .contain-descuento .item .descuento-hover {
   background-color: rgba(27,27,27,0.57);
   width: 100%;
-  height: 930px;
+  height: 900px;
   position: absolute;
   z-index: 10;
   opacity: 0;
@@ -541,7 +600,7 @@ input {
 }
 .contain-descuento .item .descuento-item {
   width: 100%;
-  height: 930px;
+  height: 900px;
 }
 .contain-descuento .item:hover .descuento-hover {
   opacity: 1;
