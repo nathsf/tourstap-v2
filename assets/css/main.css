@@ -477,17 +477,17 @@ input {
   padding-left: 15%;
   margin-top: 8%;
 }
-.ml {
+.rutas .ml {
   margin-left: 10.5%;
 }
-p:first-child {
+.rutas p:first-child {
   width: 21%;
   line-height: 1;
   padding-left: 1%;
   margin-top: 6%;
   margin-bottom: 6%;
 }
-.hex {
+.rutas .hex {
   background-image: url("../icon/hex-ruta-desactivada.png");
   width: 21%;
   height: 190px;
@@ -495,7 +495,7 @@ p:first-child {
   background-size: contain;
   display: inline-block;
 }
-.hex h2 {
+.rutas .hex h2 {
   position: relative;
   top: 14%;
   font-family: 'beyond-the-mountains';
@@ -504,16 +504,16 @@ p:first-child {
   width: 65%;
   color: #fff;
 }
-.hex h2 span {
+.rutas .hex h2 span {
   display: inline-block;
 }
-.activa {
+.rutas .activa {
   background-image: url("../icon/hex-ruta-activada.png") !important;
 }
-.quieroir {
+.rutas .quieroir {
   background-image: url("../icon/hex-quiero-ir.png") !important;
 }
-.hex.relative {
+.rutas .hex.relative {
   position: relative;
   top: -32px;
 }
