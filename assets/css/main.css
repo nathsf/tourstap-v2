@@ -507,6 +507,12 @@ p:first-child {
 .hex h2 span {
   display: inline-block;
 }
+.activa {
+  background-image: url("../icon/hex-ruta-activada.png") !important;
+}
+.quieroir {
+  background-image: url("../icon/hex-quiero-ir.png") !important;
+}
 .hex.relative {
   position: relative;
   top: -32px;
