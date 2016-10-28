@@ -205,7 +205,7 @@ input
                     img
                        display inherit
             .icon.web
-                    margin-top 655%
+                    margin-top 500%
             li 
                 background-color #4a4b4c
                 width 60px
@@ -422,16 +422,19 @@ input
 /*rutas*/
 
 .rutas
-    padding-left 17%
+    padding-left 10%
+    margin-top 7.5%
+   
     p
         &:first-child
             width 20%
             line-height 1
             padding-left 1%
             margin-top 6%
+            margin-bottom 6%
     .hex
         background-image url('../icon/hex-ruta-desactivada.png')
-        width 18%
+        width 16%
         height 190px
         background-repeat no-repeat
         background-size contain
@@ -440,9 +443,20 @@ input
             
 /*contador superior de puntos*/
 .pts-tapcoin
-    float right
-    div
-        &:nth-child(1)
+   position absolute
+   z-index 15000
+   right 0
+   .white-tapcoin
+      background-image url('../icon/blanco-tapcoin-contenedor.png')!important
+      p 
+         color black!important
+   .white-logo
+      background-image url('../icon/blanco-logo-contenedor.png')!important
+      .logo
+         background-image url('../icon/logo.png')!important
+       
+   div
+      &:nth-child(1)
             background-image url('../icon/tapcoin-contenedor.png')
             width 50%
             height 124px
@@ -458,7 +472,7 @@ input
                 float left
             p 
                 color white
-        &:nth-child(2)
+      &:nth-child(2)
             background-image url('../icon/logo-contenedor.png')
             width 40%
             height 155px
@@ -479,12 +493,18 @@ input
 /*Descuentos*/
 .filter
    position absolute
-   z-index: 15000
-   left 20%
-   width 39%
-   height 75px
+   z-index: 1000
+   
    border-radius 8px
    background-color rgba(45, 45, 45, 0.74)
+   @media screen and (max-width:1024px)
+         left 15%
+         width 42%
+         height 63px
+   @media screen and (min-width:1025px)
+         left 20%
+         width 32%
+         height 65px
    form
       input[name="places"], input[name="category"]
          border-radius 4px
@@ -495,6 +515,7 @@ input
          margin-top 4%
          margin-left 5%
          background-color rgb(216, 216, 216)
+         width 33%
       button
          padding 0% 2%
          font-size 16px
@@ -505,11 +526,7 @@ input
 .contain-descuento
    padding-left 0px
    padding-right 0px
-   
-   @media screen and (min-width:1210px)
-      width 95%!important
-   @media screen and (max-width:1210px)
-      width 93%!important
+   width 100%!important
    .item
       padding-left 0px
       padding-right 0px
