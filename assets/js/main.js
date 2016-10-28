@@ -1,4 +1,4 @@
-/*carousel*/
+/*carousel descuentos perfil*/
 $('.slide-descuentos').owlCarousel({
             responsiveClass: true,
             autoplay:false,
@@ -6,9 +6,32 @@ $('.slide-descuentos').owlCarousel({
             dots: false,
             nav: false,
         });
+/*carousel descuentos*/
 
-//upload selfie 
+$('.contain-descuento').owlCarousel({
+            responsiveClass: true,
+            autoplay:false,
+            items: 3,
+            dots: false,
+            nav: true,
+            navText: [
+              "<img src='assets/icon/flecha-izq.png' class=''></img>",
+              "<img src='assets/icon/flecha-der.png' class=''></img>"
+            ],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1210:{
+                    items:3
+                }
+            }
+        });
 
+//upload profile photo 
 function foto(numeroInput) {
     $("#fileToUpload"+numeroInput).change(function(){
         $("#file"+numeroInput).val($("#fileToUpload"+numeroInput).val());

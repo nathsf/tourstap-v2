@@ -214,3 +214,20 @@
   position: relative;
   z-index: 1;
 }
+
+/*custom css*/
+.owl-prev {
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 4%;
+    font-size: 5em;
+}
+
+.owl-next {
+    position: absolute;
+    color: white;
+    top: 45%;
+    right: 4%;
+    font-size: 5em;
+}
