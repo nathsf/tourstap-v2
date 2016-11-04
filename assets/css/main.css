@@ -6,14 +6,26 @@ body p {
   font-size: 16px;
 }
 /*helpers*/
+.mr-5 {
+  margin-right: 5%;
+}
+.mt-5 {
+  margin-top: 5%;
+}
 .pr-5 {
   padding-right: 5%;
+}
+.pl-5 {
+  padding-left: 5%;
 }
 .pl-10 {
   padding-left: 10%;
 }
 .text-justify {
   text-align: justify;
+}
+.text-center {
+  text-align: center;
 }
 /*login*/
 .bg-login {
@@ -139,6 +151,9 @@ input {
   margin-top: 14%;
 }
 /*contraseña olvidada*/
+.mt-12 {
+  margin-top: 12%;
+}
 .mt-20 {
   margin-top: 20%;
 }
@@ -679,4 +694,45 @@ input {
   top: 40%;
   left: 23%;
   font-size: 1.4em;
+}
+/*Ranking*/
+.ranking .mt-12.text-center h3 {
+  color: #000;
+  font-weight: 600;
+}
+.ranking .hex {
+  background-image: url("../icon/hex-ruta-desactivada.png");
+  width: 13%;
+  height: 108px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-left: 3%;
+}
+.ranking .hex.relative-1 {
+  position: relative;
+  top: -29px;
+  left: 8%;
+}
+.ranking .hex.relative-2 {
+  top: -26px;
+  position: relative;
+}
+.ranking .gold {
+  background-image: url("../icon/corona-oro.png");
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 21px;
+  position: absolute;
+  top: -49px;
+  margin-left: 55px;
+}
+.ranking .bronce {
+  background-image: url("../icon/corona-bronce.png");
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 21px;
+  position: absolute;
+  top: 65px;
+  margin-left: -4px;
 }
