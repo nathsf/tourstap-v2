@@ -5,12 +5,21 @@ body
         font-size 16px
    
 /*helpers*/
+.mr-5
+   margin-right 5%
+.mt-5
+   margin-top 5%
 .pr-5
     padding-right 5%
+.pl-5
+    padding-left 5%
 .pl-10
     padding-left 10%
 .text-justify
-   text-align justify     
+   text-align justify
+    
+.text-center
+   text-align center   
 /*login*/
 .bg-login
     padding-left: 0px;
@@ -124,12 +133,14 @@ input
     margin-top 14%
 
 /*contraseña olvidada*/
-
+.mt-12
+    margin-top 12%
 .mt-20
     margin-top 20%
     
 .mt-40
     margin-top 40%
+
     
 /*registro*/
 
@@ -422,23 +433,62 @@ input
 /*rutas*/
 
 .rutas
-    padding-left 10%
-    margin-top 7.5%
-   
-    p
+   padding-left 15%
+   margin-top 8%
+   .ml 
+      margin-left 10.5%
+   p
         &:first-child
-            width 20%
+            width 21%
             line-height 1
             padding-left 1%
             margin-top 6%
             margin-bottom 6%
-    .hex
+   .hex
         background-image url('../icon/hex-ruta-desactivada.png')
-        width 16%
+        width 21%
         height 190px
         background-repeat no-repeat
         background-size contain
-        display inline-block
+        display inline-block     
+
+        h2
+         position relative
+         top 14%
+         font-family 'beyond-the-mountains'
+         text-align center
+         left 14.5%
+         width 65%
+         color white
+         span
+            display inline-block
+   .activa
+      background-image url('../icon/hex-ruta-activada.png')!important
+   .quieroir
+      background-image url('../icon/hex-quiero-ir.png')!important
+        
+   .hex.relative
+      position relative
+      top -32px
+      
+
+.leyenda-rutas
+   float right
+   padding-top 5%
+   p 
+      font-size 13px
+   div
+      height 20px
+      width 20px
+      margin-right 5%
+      border-radius 5px
+   .activa
+      background-color #00bcd0
+   .inactiva
+      background-color gray
+   .quieroir
+      background-color #d0021b
+      
         
             
 /*contador superior de puntos*/
@@ -564,5 +614,43 @@ input
                left 23%
                font-size 1.4em
 
-    
-    
+/*Ranking*/
+.ranking
+   .mt-12.text-center h3
+      color black
+      font-weight 600
+   
+   .hex
+        background-image url('../icon/hex-ruta-desactivada.png')
+        width 13%
+        height 108px
+        background-repeat no-repeat
+        background-size contain
+        display inline-block
+        margin-left 3% 
+   .hex.relative-1
+      position relative
+      top -29px
+      left 8%
+      
+   .hex.relative-2
+      top -26px
+      position relative
+      
+   .gold
+      background-image url('../icon/corona-oro.png')
+      background-repeat no-repeat
+      width 31px
+      height 21px
+      position absolute
+      top -49px
+      margin-left 55px
+   .bronce
+      background-image url('../icon/corona-bronce.png')
+      background-repeat no-repeat
+      width 31px
+      height 21px
+      position absolute
+      top 65px
+      margin-left -4px
+      
