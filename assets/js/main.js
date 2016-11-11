@@ -1,3 +1,15 @@
+
+/*Collage ranking*/
+$('.Collage').collagePlus(
+    {
+        // change this to adjust the height of the rows
+        'targetHeight' : 100,
+        // change this to try different effects
+        // valid effets = effect-1 to effect-6
+        'effect' : "effect-1"
+        
+    }
+);
 /*carousel descuentos perfil*/
 $('.slide-descuentos').owlCarousel({
             responsiveClass: true,
