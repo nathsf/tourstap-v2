@@ -735,7 +735,7 @@ input {
   margin-left: 49px;
 }
 .ranking .silver.left {
-  left: 61px;
+  left: 65px;
 }
 .ranking .silver {
   background-image: url("../icon/corona-plata.png");
@@ -743,8 +743,8 @@ input {
   width: 31px;
   height: 21px;
   position: absolute;
-  top: 27px;
-  margin-left: 101px;
+  top: 24px;
+  margin-left: 106px;
   z-index: 5;
 }
 .ranking .bronze.left {
