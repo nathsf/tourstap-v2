@@ -33,7 +33,7 @@ $('.contain-descuento').owlCarousel({
         });
 
 //upload profile photo 
-function foto(numeroInput) {
+function fotoPerfil(numeroInput) {
     $("#fileToUpload"+numeroInput).change(function(){
         $("#file"+numeroInput).val($("#fileToUpload"+numeroInput).val());
 
@@ -49,5 +49,26 @@ function foto(numeroInput) {
                 break;
         }
 
+    });
+}
+
+//upload selfie reto
+function fotoSelfie(numeroInput) {
+    $(document).ready(function() {
+        var readURL = function(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    $('#profilePic').attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $("#file-upload" + numeroInput).on('change', function() {
+            readURL(this);
+        });
+        $("#uploadButton" + numeroInput).on('click', function() {
+            $("#fileUpload" + numeroInput).click();
+        });
     });
 }

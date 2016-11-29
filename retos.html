@@ -9,7 +9,7 @@
     <link href="assets/css/sanfrancisco-font.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <body>
+    <body onLoad="fotoSelfie(1), fotoSelfie(2), fotoSelfie(3), fotoSelfie(4), fotoSelfie(5), fotoSelfie(6)">
       <section>
         <div class="nav sidebar-nav">
           <nav>
@@ -25,11 +25,11 @@
                 </li></a><a href="rutas.html">   
                 <li><img src="assets/icon/icono-retos.png">
                   <p> Rutas</p>
-                </li></a><a href="#">
+                </li></a><a href="mapa.html">
                 <li class="icon-pd"><img src="assets/icon/icono-ubicacion.png">
-                  <p> Ubicación</p>
-                </li></a><a href="#">   
-                <li class="icon web"><img src="assets/icon/icono-web.png"></li></a><a href="#" class="icon">  
+                  <p> Mapa</p>
+                </li></a><a href="http://tourstap.com/">   
+                <li class="icon web"><img src="assets/icon/icono-web.png"></li></a><a href="bus-alojo.html" class="icon">  
                 <li class="icon"><img src="assets/icon/icono-bus-alojo.png"></li></a></ul>
           </nav>
         </div>
@@ -55,26 +55,41 @@
               <h1>Ruta Aventura<span>-Ica-</span></h1>
             </div>
             <div class="hex r1">
-              <p>Selfie en bote en las islas ballestas</p><span>20pts</span>
+              <p>Selfie en bote en las islas ballestas</p><span>20pts</span><img id="profilePic1" src="" class="profile-pic">
+              <div id="uploadButton1" class="upload-button">Selfie</div>
+              <input id="fileUpload1" type="file" accept="image/*" class="file-upload">
             </div>
             <div class="hex r1">
-              <p>Selfie en bote en las islas ballestas</p><span>20pts</span>
+              <p>Selfie en bote en las islas ballestas</p><span>20pts</span><img src="" class="profile-pic">
+              <div id="uploadButton2" class="upload-button">Selfie</div>
+              <input id="fileUpload2" type="file" accept="image/*" class="file-upload">
             </div>
             <div class="hex r3">
-              <p>Selfie Sandboard</p><span>20pts</span>
+              <p>Selfie Sandboard</p><span>20pts</span><img src="" class="profile-pic">
+              <div id="uploadButton3" class="upload-button">Selfie</div>
+              <input id="fileUpload3" type="file" accept="image/*" class="file-upload">
             </div>
             <div class="hex r4">
-              <p>Selfie con un amigo en la ciudad</p><span>20pts</span>
+              <p>Selfie con un amigo en la ciudad</p><span>20pts</span><img src="" class="profile-pic">
+              <div id="uploadButton4" class="upload-button">Selfie</div>
+              <input id="fileUpload4" type="file" accept="image/*" class="file-upload">
             </div>
             <div class="hex r5">
-              <p>Selfie en las dunas</p><span>20pts</span>
+              <p>Selfie en las dunas</p><span>20pts</span><img src="" class="profile-pic">
+              <div id="uploadButton5" class="upload-button">Selfie</div>
+              <input type="file" id="fileUpload5" name="selfie" accept="image/*" class="file-upload">
             </div>
             <div class="hex r6">
-              <p>Selfie tomando pisco</p><span>20pts</span>
+              <p>Selfie tomando pisco</p><span>20pts</span><img src="" class="profile-pic">
+              <div id="uploadButton6" class="upload-button">Selfie</div>
+              <input id="fileUpload6" type="file" accept="image/*" class="file-upload">
             </div>
           </div>
         </div>
       </section>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/main.js"></script>
     </body>
   </head>
 </html>
