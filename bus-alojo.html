@@ -46,9 +46,57 @@
       <section class="col-sm-5 plr-0">
         <div class="bg-viaje"></div>
       </section>
-      <section class="col-sm-5">
+      <section class="col-sm-6 bus-alojo">
         <div>
-          <h2>¿No tienes movilidad o alojo?</h2>
+          <h2 class="text-center">¿No tienes movilidad o alojo?</h2>
+          <p class="text-center">Nosotros te ayudamos a encontrar lo que necesitas</p>
+          <form action="">
+            <input list="place" name="places" placeholder="Elige Ciudad">
+            <datalist id="place">
+              <option value="Lugar 1"></option>
+              <option value="Lugar 2"></option>
+              <option value="Lugar 3"></option>
+              <option value="Lugar 4"></option>
+            </datalist>
+            <input list="category" name="category" placeholder="Elige Categoría" class="ml-6">
+            <datalist id="category">
+              <option value="Restaruantes"></option>
+              <option value="Hoteles"></option>
+              <option value="Ecolodge"></option>
+              <option value="Tours"></option>
+              <option value="Souvenirs"></option>
+            </datalist>
+            <input list="place" name="places" placeholder="Elige Ciudad">
+            <datalist id="place">
+              <option value="Lugar 1"></option>
+              <option value="Lugar 2"></option>
+              <option value="Lugar 3"></option>
+              <option value="Lugar 4"></option>
+            </datalist>
+            <input list="category" name="category" placeholder="Elige Categoría" class="ml-6">
+            <datalist id="category">
+              <option value="Restaruantes"></option>
+              <option value="Hoteles"></option>
+              <option value="Ecolodge"></option>
+              <option value="Tours"></option>
+              <option value="Souvenirs"></option>
+            </datalist>
+            <h4>Busca tu pasaje:</h4>
+            <input type="checkbox" id="bus_checkbox" value="first_checkbox">
+            <label for="bus_checkbox">Ya tengo pasaje</label>
+            <button id="bus" class="btn btn-warning">
+              <h5>Bus</h5>
+              <div></div>
+            </button>
+            <h4>Busca un alojamiento:</h4>
+            <input type="checkbox" id="alojo_checkbox" value="first_checkbox">
+            <label for="alojo_checkbox">Ya tengo alojamiento</label>
+            <button id="alojo" class="btn btn-warning">
+              <h5>Alojo</h5>
+              <div></div>
+            </button><a href=""> 
+              <p>Ver descuentos de la ciudad</p></a>
+          </form>
         </div>
       </section>
     </body>
